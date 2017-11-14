@@ -1,10 +1,10 @@
 # Site settings
-title: 
+title: A Woman-in-Tech's Coding Journey
 header-img: img/home-bg.png
 email: jamilya_ramos-chapman@alumni.brown.edu
 copyright_name: jramosch
 description: > # this means to ignore newlines until "baseurl:"
-  
+  From novice to professional.
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  jramosch
