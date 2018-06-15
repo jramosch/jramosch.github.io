@@ -1,0 +1,25 @@
+---
+layout: post
+title:      "Logic (n);"
+date:       2018-06-15 13:34:51 +0000
+permalink:  logic_n
+---
+
+
+### a system or set of principles underlying the arrangements of elements in a computer or electronic device so as to perform a specified task.
+
+It has taken me quite some to truly commit to writing a blog. Coding is not a subject I ever felt confident talking, let alone writing, about. My previous experience with computer science / programming is rather limited to my experience at my alma mater, Brown University. During my high school visit to the Rhode Island-based ivy league, I fell in love with the atmosphere, without really understanding the gravity. 
+
+It didn't dawn on me that I was to be overwhelmed by the students who did not look like me. Having just graduated from a predeominantly black & hispanic school smack dab in Brooklyn, Brown was a culture shock. However, I could also recognize it for the opportunities it offered. 
+
+Without a major in my first year, I tried out a class in nearly every department - at least the ones that sounded most interesting by name. This included CS15: Introduction to Object-Oriented Programming, which was taught by someone who inspired the name of "Andy" from Toy Story. I'm not sure how this was relevant to teaching skills, but somehow he was connected to Pixar and that was enough for me. 
+
+Apparently this was also enough for a couple hundred other students, as the one class filled a substantial lecture hall with students. There would be little one-on-one time with the professor and more one-on-one time with fellow undergrads with the title of "TA". This is where the breakdown occured to me: talking with TAs. 
+
+I wasn't getting programming. I didn't take to it naturally and I struggled with talking to TAs or rather TAs struggled explaining the concepts to me in a way I understood. 
+
+![](https://i.imgflip.com/kw17v.jpg)
+
+Programming logic isn't kind to the English language; you sort of need to wrestle with it to really communicate what a certain line of code is achieving. Even the Flatiron lessons & labs are written in somewhat confusing/convoluted ways, making it difficult to digest at times. Learning these programming languages is very much like learning anyother foreign language and requires some rewiring of the brain. 
+
+My hope is to use the blogs as a way of breaking down and, ultimately translating, the programming concepts I learn under the Flatiron Full Stack Web Development curriculum into more digestable concepts. It'll be a learning exercise for myself and - hopefully - may serve as a resource for others trying to make that leap. 
