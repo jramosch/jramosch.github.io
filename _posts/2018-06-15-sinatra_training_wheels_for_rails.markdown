@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra: Training Wheels for Rails"
-date:       2018-06-15 13:42:55 +0000
+date:       2018-06-15 09:42:56 -0400
 permalink:  sinatra_training_wheels_for_rails
 ---
 
@@ -9,7 +9,7 @@ permalink:  sinatra_training_wheels_for_rails
 ## Sinatra: "Yuck"
 While at an on-campus study session, I recall telling one of the monitoring helpers that I was up to the Sinatra. To which he replied: "yuck"
 
-As someone who hadn't reached the Rails section of the curriculum, the response did not yet resonate with me. But, as I understand it, Sinatra are serving as the training wheels for Ruby on Rails. As a "*light weight* framework", Sinatra heavily relies on the developer for app structure and communication. 
+As someone who hadn't reached the Rails section of the curriculum, the response did not yet resonate with me. But, as I understand it, Sinatra serves as the training wheels for Ruby on Rails. As a "*light weight* framework", Sinatra heavily relies on the developer for app structure and communication. 
 
 While Rails probably streamlines this process, Sinatra allows for us budding new developers to really get our hands dirty and familiarize ourselves with MVC concepts. 
 
