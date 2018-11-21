@@ -13,7 +13,9 @@ Following a specific set of conventions, application logic is managed by the **M
 
 ![src: sitepoint.com](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/10/1508423394rails-revealed_mvc-diagram.png)
 
+-------
 ### **Roles & Responsibilities**
+
 
 #### **Model**
 
@@ -59,7 +61,7 @@ The view only has access to instance variables provided by the controller, which
 
 ![src: viblo.asia](https://viblo.asia/uploads/c73060bc-984a-40d1-bee0-8e7d73782e87.jpg)
 
-At its core, Rails is focused on "convention over configuration" and this is no different for how it implements the MVC structure. As previously outlined, view files correspond directly to controller files, which speak directly with models. Using the same example provided by Flatiron - a blog that has a database table called posts - a quick ;
+At its core, Rails is focused on "convention over configuration" and this is no different for how it implements the MVC structure. As previously outlined, view files correspond directly to controller files, which speak directly with models. Using the same example provided by Flatiron - a blog that has a database table called posts - a quick overview;
 
 * A `post.rb` model file contains validations, database relationships, callbacks, and any custom logic for posts.
 
