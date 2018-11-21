@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "REWRITE: Rails MVC"
-date:       2018-11-21 23:06:27 +0000
+date:       2018-11-21 18:06:28 -0500
 permalink:  rewrite_rails_mvc
 ---
 
@@ -13,9 +13,9 @@ Following a specific set of conventions, application logic is managed by the **M
 
 ![src: sitepoint.com](https://dab1nmslvvntp.cloudfront.net/wp-content/uploads/2017/10/1508423394rails-revealed_mvc-diagram.png)
 
-#### Roles & Responsibilities
+### Roles & Responsibilities
 
-###### Model
+#### Model
 
 The model is the central component of the MVC pattern, managing the data, logic, and rules of the application. Within Rails, the model is a Ruby class inheriting from the `ActiveRecord::Base`, meaning it has a corresponding database table and access to methods that aid in working with that database. 
 
@@ -23,7 +23,7 @@ Treating it like anyother Ruby class, you can create methods, data attributes, a
 
 Independent of the user interface, the model receives its user input via the controller.
 
-###### View
+#### View
 
 The view defines how an app's data is presented. In Rails, the view contains the least amount of logic, as its role is to render whatever is received from the database (via the controller). 
 
@@ -47,7 +47,7 @@ The below example (provided by Flatiron)...
 
 The Action View helper (`div_for`) allowed us to dynamically set the HTML tag without actually writing any HTML code at all. As your views grow in size, you'll come to rely on such tools, because the more Ruby (and the less HTML) you use, the more manageable your views will be. 
 
-###### Controller
+#### Controller
 
 The controller manages data flow between the models, views, and routes. Receiving input from app users, the controller converts that input into commands for the models and views. 
 
@@ -55,7 +55,7 @@ The view only has access to instance variables provided by the controller, which
 
 -------
 
-#### Routing, File Naming Conventions, and Data Flow: Blog Example
+### Routing, File Naming Conventions, and Data Flow: Blog Example
 
 ![src: viblo.asia](https://viblo.asia/uploads/c73060bc-984a-40d1-bee0-8e7d73782e87.jpg)
 
