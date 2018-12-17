@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "REWRITE: Rails Static Request"
-date:       2018-12-17 23:06:57 +0000
+date:       2018-12-17 18:06:58 -0500
 permalink:  rewrite_rails_static_request
 ---
 
