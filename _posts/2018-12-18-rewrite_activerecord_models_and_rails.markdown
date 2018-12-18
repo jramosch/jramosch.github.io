@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "REWRITE: ActiveRecord Models and Rails"
-date:       2018-12-18 21:52:21 +0000
+date:       2018-12-18 16:52:21 -0500
 permalink:  rewrite_activerecord_models_and_rails
 ---
 
@@ -62,14 +62,13 @@ describe Post do
   it 'can be created' do
 	  post = Post.create! (title: "My title", description: "The post description")
 		expect(post).to be_valid
-  end
+	end
 	
 	# tests for 'post_summary' feature
 	it 'has a summary' do
-    post = Post.create!(title: "My title", description: "The post description")
-    expect(post.post_summary).to eq("My title - The post description")
-  end
-	  
+	  post = Post.create!(title: "My title", description: "The post description")
+		expect(post.post_summary).to eq("My title - The post description")
+	end
 end
 ```
 
@@ -122,10 +121,10 @@ Rails provides developers with the ability to work in different environments, th
 There are many components of the `database.yml` file only necessary for more advanced applications, but keep in mind that database configuration is kept here.
 
 
-#### *Keywords;*
+### **Keywords;**
 
 * ***Active Record*** is the built-in ORM framework of Rails that manages database-related tasks. 
 * ***ORM** (Object-Relational-Mapping)* is a programming technique for converting data between incomatible type systemsing using object-oriented programming languages. 
 * ***SQL** (Structured Query Language* is a domain-specific languaged designed for managing data stored in databases.
 * ***BDD** (Behavior Driven Development)* is a software development methodology that aims to simplify development through adapting natural language sentences and phrases into executable tests. 
-* schema file
+* A ***schema file*** , which is automatically generated with database migrations, attempts to capture the current state of your databse schema.
