@@ -24,7 +24,7 @@ Rails's comprehensive routing system expands well enough to handle both static a
 
 * A **static route**, as its name implies, renders a view that does not change. Because of its unchanging nature, parameters are typically not sent to this type of route. Examples of this include a site's about or contact pages.
 
-* A **dynamic route** is a page that accepts parameters, rendering content based on those parameters. Examples of this include a blog's post page containing a specific article or a individual's profile. 
+* A **dynamic route** is a page that accepts parameters, rendering content based on those parameters. Examples of this include a blog's post page containing a specific article or an individual's profile. 
 
 ### Implementing a Static Route
 
@@ -53,7 +53,7 @@ We'll now have to tell the `about` action to render a page template. Fortunately
 
 Before proceeding with either option, we'll first need to create a `static` directory within the views directory, which will hold our static page views; `app/views/static`. 
 
-To first demonstrate*explicit* rendering, we'll first create a view file withinthe newly created `static` directory; `app/views/static/some_page.html.erb`. We can now render this page in the `about` action either using the full view path (`render "static/some_page"`) or omitting the enclosing directory (`render "some_page"`). Rails automatically looks within the view directory of the same controller name. Typically, it's best pratice to use the latter `render "same_page"` syntax, as it doesn't rely on the directory name in case its name is changed. 
+To first demonstrate *explicit* rendering, we'll first create a view file within the newly created `static` directory; `app/views/static/some_page.html.erb`. We can now render this page in the `about` action either using the full view path (`render "static/some_page"`) or omitting the enclosing directory (`render "some_page"`). Rails automatically looks within the view directory of the same controller name. Typically, it's best pratice to use the latter `render "same_page"` syntax, as it doesn't rely on the directory name in case its name is changed. 
 
 With all this in mind, we'll first add some content to our `some_page.html.erb` view;
 
@@ -79,7 +79,7 @@ It's best to utilize the implicit workflow and follow the standard conventions. 
 
 ------
 
-#### *Keywords;*
+### **Keywords;**
 
 * ***Routing*** is the process of selecting a path for traffic in a network, or between or across multiple networks. Broadly, routing is performed in many types of networks, including circuit-switched networks, such as the public switched telephone network (PSTN), and computer networks, such as the Internet.
 
