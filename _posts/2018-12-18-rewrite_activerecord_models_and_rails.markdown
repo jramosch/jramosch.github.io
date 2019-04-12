@@ -58,17 +58,17 @@ require 'rails_helper'
 
 describe Post do
 
-  # tests for a creation of a post
-  it 'can be created' do
-	  post = Post.create! (title: "My title", description: "The post description")
-		expect(post).to be_valid
-	end
-	
-	# tests for 'post_summary' feature
-	it 'has a summary' do
-	  post = Post.create!(title: "My title", description: "The post description")
-		expect(post.post_summary).to eq("My title - The post description")
-	end
+    # tests for a creation of a post
+		it 'can be created' do
+		    post = Post.create! (title: "My title", description: "The post description")
+				expect(post).to be_valid
+		end
+		
+		# tests for 'post_summary' feature
+		    it 'has a summary' do
+				post = Post.create!(title: "My title", description: "The post description")
+				expect(post.post_summary).to eq("My title - The post description")
+		end
 end
 ```
 
@@ -87,14 +87,13 @@ While we're able to actually start running our tests, using `bundle exec rspec`,
 
 ```
 class CreatePosts < ActiveRecord::Migration
-  def change
-	  create_table :posts do |t|
-		  t.string :title
-			t.text :description
-			
-			t.timestamps null: false
+    def change
+		    create_table :posts do |t|
+				    t.string :title
+						t.text :description
+						t.timestamps null: false
+				end
 		end
-	end
 end
 ```
 
@@ -102,9 +101,9 @@ This basic migration creates a `posts` table with a title and description column
 
 ```
 class Post < ActiveRecord::Base
-  def post_summary
-    self.title + " - " + self.description
-  end
+    def post_summary
+		    self.title + " - " + self.description
+		end
 end
 ```
 
